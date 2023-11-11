@@ -4,8 +4,8 @@
   "description": "",
   "homepage": "https://MalgorzataMarczynska.github.io/chat_basic",
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /chat_basic/"
+    "start": "parcel public/*.html",
+    "build": "parcel build public/*.html --public-url /chat_basic/"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,10 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "express": "^4.18.2",
+    "modern-normalize": "^1.1.0",
+    "node": "^21.1.0",
+    "socket.io": "^4.7.2"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
