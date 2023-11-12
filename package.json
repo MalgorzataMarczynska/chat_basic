@@ -2,10 +2,13 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
+  "main": "server.js",
+  "type": "module",
   "homepage": "https://MalgorzataMarczynska.github.io/chat_basic",
   "scripts": {
-    "start": "parcel public/*.html",
-    "build": "parcel build public/*.html --public-url /chat_basic/"
+    "dev": "parcel public/*.html",
+    "build": "parcel build public/*.html --public-url /chat_basic/",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
